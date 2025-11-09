@@ -3,7 +3,7 @@
     "name": "Input Action Asset",
     "maps": [
         {
-            "name": "Movement",
+            "name": "Playing",
             "id": "20ba6c38-f67e-4f01-bdf9-35e6fcccdc67",
             "actions": [
                 {
@@ -19,6 +19,24 @@
                     "name": "Run",
                     "type": "Button",
                     "id": "8ec2a04c-2aab-4ed8-92b7-b9477628ae9b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "3877e364-0a4b-4916-b3c5-6fa662872427",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "OpenInventory",
+                    "type": "Button",
+                    "id": "d068ff84-4096-4589-b4b9-807cb5af97fc",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -100,6 +118,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f42e41c8-83eb-4f8e-a6ca-465daff013b5",
+                    "path": "<Keyboard>/e",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4fb3aa70-f45d-4948-9f50-8edbc9b5b4e5",
+                    "path": "<Keyboard>/i",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OpenInventory",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
